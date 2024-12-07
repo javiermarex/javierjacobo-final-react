@@ -1,0 +1,28 @@
+.CartWidget {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none; /* Sin fondo para que coincida con el navbar */
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #d1d5db; /* Color de texto similar al navbar */
+    transition: color 0.3s ease;
+    padding: 0.5rem;
+}
+
+.CartWidget:hover {
+    color: #ffffff; /* Color al pasar el mouse */
+}
+
+.CartImg {
+    margin-right: 8px;
+    width: 20px; /* Tamaño del ícono ajustado */
+    height: 20px;
+}
+
+.CartWidget span {
+    font-size: 0.875rem; /* Tamaño del texto */
+    font-weight: bold;
+    margin-left: 4px;
+}
